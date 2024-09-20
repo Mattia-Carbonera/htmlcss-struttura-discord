@@ -247,18 +247,22 @@ footer {
   background-color: green;
   height: 80%;
   width: 60%;
-  line-height: 100%;
-  text-align: center;
 }
 
 .logo-footer {
   background-color: red;
   height: 50%;
   padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .button-footer {
   background-color: aqua;
   height: 50%;
   padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
