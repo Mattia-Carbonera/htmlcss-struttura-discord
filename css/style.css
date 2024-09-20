@@ -42,14 +42,6 @@ a {
   padding: 10px;
 }
 
-/* *general* */
-
-.subsection-uno {
-  background-color: lightgreen;
-  height: 100%;
-  width: 60%;
-}
-
 /* ________HEADER________ */
 
 header {
@@ -93,7 +85,7 @@ header {
 }
 
 .inside-box-uno {
-  width: 60%;
+  width: 50%;
   height: 80%;
   background-color: aqua;
 }
@@ -110,7 +102,7 @@ header {
   display: flex;
   align-items: center;
   height: 400px;
-  width: 70%;
+  width: 60%;
 }
 .subsection-uno {
   background-color: lightpink;
@@ -136,7 +128,7 @@ header {
   align-items: center;
   flex-direction: row-reverse;
   height: 400px;
-  width: 70%;
+  width: 60%;
 }
 .subsection-tre {
   background-color: lightpink;
@@ -161,7 +153,7 @@ header {
   display: flex;
   align-items: center;
   height: 400px;
-  width: 70%;
+  width: 60%;
 }
 .subsection-quattro {
   background-color: lightpink;
@@ -250,7 +242,23 @@ footer {
 
 .footer-container {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: green;
   height: 80%;
-  width: 80%;
+  width: 60%;
+  line-height: 100%;
+  text-align: center;
+}
+
+.logo-footer {
+  background-color: red;
+  height: 50%;
+  padding: 10px;
+}
+
+.button-footer {
+  background-color: aqua;
+  height: 50%;
+  padding: 10px;
 }
